@@ -10,7 +10,7 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "apk"                                                   
-excluded-patches = "'Custom branding'"                                                 
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"                                                 
 included-patches = "" 
 patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='com.rvx.android.youtube' "
 version = "auto"                                                      
